@@ -1,0 +1,73 @@
+header {
+	width: 100%;
+	/*background-image: url("../img/profile.jpg");*/
+	height: 200px;
+	padding-top: 10%;
+
+}
+header h1 {
+	font-family: "Brush Script MT";
+	font-size: 6em;
+	margin-top: -1%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: black;
+}
+header h3 {
+	padding-left: 25px;
+	color: black;
+}
+
+.nav {
+	background: linear-gradient(to top, black, #111, #333, #666);
+	box-shadow: 10px 10px 50px #333;
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top:-10px;
+	z-index: 1;
+	margin-left: -10px;
+	position: fixed;
+	
+}
+.nav > ul > li {
+	display: inline-block;
+	padding: 1%;
+	-webkit-transition: .5s all ease;
+	font-size: 1.5em;
+
+}
+.nav >ul > li:hover {
+	text-shadow: 2px 2px 2px #888;
+}
+
+.nav > ul {
+	margin: 0%;
+	padding: 0% 5%;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+}
+.tomato2:hover {
+	background-color: tomato;
+	-webkit-transition: .5s all ease;
+}
+
+.green2:hover {
+	background-color: lightseagreen;
+	-webkit-transition: .5s all ease;
+}
+.blue2:hover {
+	background-color: blue;
+	-webkit-transition: .5s all ease;
+}
+.yellow2:hover {
+		background-color: yellow;
+	-webkit-transition: .5s all ease;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+

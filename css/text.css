@@ -1,0 +1,66 @@
+h1 {
+	font-size: 2em;
+}
+h4 {
+	color: black;
+}
+
+.column-content {
+	display: inline-block;
+	width: 45%;
+	margin: 5% 0% 0% 5%;
+	height: 500px;
+	padding: 2%;
+	border-left: solid lightseagreen 10px;
+	border-right: solid lightskyblue 10px;
+	border-bottom: solid seagreen  10px;
+	border-top: solid  skyblue 10px;
+	box-shadow: 5px 5px 40px #444;
+	background-color: white;
+	color: darkslateblue;
+}
+.column-3 {
+	padding: 5%;
+	display: inline-block;
+	width: 30%;
+	border: solid red;
+
+}
+.about {
+	/*font-color: white;*/
+	padding-top: 50px;
+	color: white;
+	width: 100%;
+	height: 175px;
+	background-image: url(../img/popestudio2.png);
+	background-width: 100%;
+	border-bottom: solid seagreen 10px;
+	-webkit-transition: .5s all ease-in-out;
+}
+.about h1 {
+	text-shadow: 2px 2px 3px #333;
+	-webkit-transition: .5s all ease-in-out;
+	font-size: 2em;
+}
+.about:hover {
+	height: 400px;
+	box-shadow: 5px 5px 100px black;
+	border-bottom: solid seagreen 30px;
+	
+}
+.about:hover h1 {
+	padding-left: 20%;
+	font-color: black;
+}
+
+.footer {
+	display: inline;
+	width: 100%;
+}
+.container3 {
+	/*border: solid red;*/
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+}
